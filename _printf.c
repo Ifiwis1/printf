@@ -1,14 +1,14 @@
 #include "main.h"
 
 void print_buffer(char buffer[], int *buff_ind);
-	/**
-	 * _printf - printf function
-	 * @format: format
-	 * Return: Printed chas
-	 */
 
-	int_printf(const char *format, ...);
-	{
+/**
+ * _printf - Printf function
+ * @format: format.
+ * Return: Printed chars.
+ */
+int _printf(const char *format, ...)
+{
 	int i, printed = 0, printed_chars = 0;
 	int flags, width, precision, size, buff_ind = 0;
 	va_list list;
@@ -64,3 +64,4 @@ void print_buffer(char buffer[], int *buff_ind)
 
 	*buff_ind = 0;
 }
+
