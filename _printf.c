@@ -1,8 +1,8 @@
 #include "main.h"
 
-void print_buffer(char buffer[], int *buff_ind)
+void print_buffer(char buffer[], int *buff_ind);
 	/**
-	 * _printf - prints function
+	 * _printf - printf function
 	 * @format: format
 	 * Return: Printed chas
 	 */
@@ -64,4 +64,3 @@ void print_buffer(char buffer[], int *buff_ind)
 
 	*buff_ind = 0;
 }
-
